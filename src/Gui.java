@@ -28,13 +28,6 @@ public class Gui extends JFrame {
 
 				thrd.run();
 
-				try {
-					thrd.join();
-				} catch (InterruptedException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-
 			}
 
 		});
