@@ -10,6 +10,7 @@ public class Gui extends JFrame {
 		JButton button = new JButton();
 		button.setText("Hi");
 		add(button);
+		button.setSize(100,50);
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setVisible(true);
 		setSize(300, 300);
@@ -20,7 +21,7 @@ public class Gui extends JFrame {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
-
+				
 				detector = new Detector();
 				
 				
