@@ -22,7 +22,7 @@ public class FingerprintRecognitionDemo {
 
 	public static void main(String[] args) {
 
-		String songA = "audio_work/songs/canon_d_major.wav";
+		String songA = "audio_work/hi.wav";
 		String songB = "audio_work/songs/fing_fing_ha.wav";
 		String songC = "audio_work/songs/forrest_gump_theme.wav";
 		String songD = "audio_work/songs/imagine.wav";
@@ -35,7 +35,7 @@ public class FingerprintRecognitionDemo {
 		Wave waveD = new Wave(songD);
 		Wave waveE = new Wave(songE);
 
-		String recordedClip = "audio_work/songs/top_of_the_world_rec.wav";
+		String recordedClip = "audio_work/ti.wav";
 		Wave waveRec = new Wave(recordedClip);
 
 		FingerprintSimilarity similarity;
