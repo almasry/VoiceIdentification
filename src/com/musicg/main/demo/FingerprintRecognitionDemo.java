@@ -24,9 +24,9 @@ public class FingerprintRecognitionDemo {
 
 		String songA = "audio_work/hi.wav";
 		String songB = "audio_work/why.wav";
-		String songC = "audio_work/songs/forrest_gump_theme.wav";
-		String songD = "audio_work/songs/imagine.wav";
-		String songE = "audio_work/songs/top_of_the_world.wav";
+		String songC = "audio_work/sheng.wav";
+		String songD = "audio_work/cleaned.wav";
+		String songE = "audio_work/cleanedti.wav";
 
 		// create a wave object
 		Wave waveA = new Wave(songA);
@@ -35,7 +35,7 @@ public class FingerprintRecognitionDemo {
 		Wave waveD = new Wave(songD);
 		Wave waveE = new Wave(songE);
 
-		String recordedClip = "audio_work/test.wav";
+		String recordedClip = "audio_work/ti.wav";
 		Wave waveRec = new Wave(recordedClip);
 
 		FingerprintSimilarity similarity;
